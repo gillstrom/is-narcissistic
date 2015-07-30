@@ -1,6 +1,6 @@
 {
   "name": "is-narcissistic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if an integer is narcissistic.",
   "license": "MIT",
   "repository": "gillstrom/is-narcissistic",
