@@ -2,6 +2,8 @@
 
 > Check if an integer is [narcissistic](https://en.wikipedia.org/wiki/Narcissistic_number).
 
+*Currently base 10 only*
+
 
 ## Install
 
