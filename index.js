@@ -1,10 +1,12 @@
 'use strict';
+var numArr = require('num-arr');
+
 module.exports = function (val) {
 	if (typeof val !== 'number') {
 		throw new TypeError('Expected a number');
 	}
 
-	var arr = String(parseInt(val, 10)).split('');
+	var arr = numArr(parseInt(val, 10));
 	var sum = 0;
 
 	arr.forEach(function (el) {

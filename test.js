@@ -7,6 +7,9 @@ it('should be true', function () {
 	assert.strictEqual(isNarcissistic(370), true);
 	assert.strictEqual(isNarcissistic(371), true);
 	assert.strictEqual(isNarcissistic(407), true);
+	assert.strictEqual(isNarcissistic(1634), true);
+	assert.strictEqual(isNarcissistic(8208), true);
+	assert.strictEqual(isNarcissistic(4679307774), true);
 });
 
 it('should be false', function () {

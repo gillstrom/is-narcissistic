@@ -27,5 +27,8 @@
   ],
   "devDependencies": {
     "mocha": "*"
+  },
+  "dependencies": {
+    "num-arr": "^1.0.1"
   }
 }
