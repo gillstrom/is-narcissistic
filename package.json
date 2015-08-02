@@ -20,15 +20,18 @@
   ],
   "keywords": [
     "check",
+    "integer",
     "is",
     "math",
     "narcissistic",
+    "number",
     "test"
   ],
   "devDependencies": {
     "mocha": "*"
   },
   "dependencies": {
-    "num-arr": "^1.0.1"
+    "num-arr": "^1.0.1",
+    "number-is-integer": "^1.0.0"
   }
 }
