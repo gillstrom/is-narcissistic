@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -28,7 +28,7 @@
     "test"
   ],
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   },
   "dependencies": {
     "num-arr": "^1.0.1",

@@ -1,20 +1,22 @@
 'use strict';
-var assert = require('assert');
-var isNarcissistic = require('./');
+var test = require('ava');
+var fn = require('./');
 
-it('should be true', function () {
-	assert.strictEqual(isNarcissistic(153), true);
-	assert.strictEqual(isNarcissistic(370), true);
-	assert.strictEqual(isNarcissistic(371), true);
-	assert.strictEqual(isNarcissistic(407), true);
-	assert.strictEqual(isNarcissistic(1634), true);
-	assert.strictEqual(isNarcissistic(8208), true);
-	assert.strictEqual(isNarcissistic(4679307774), true);
+test('should be true', function (t) {
+	t.true(fn(153));
+	t.true(fn(370));
+	t.true(fn(371));
+	t.true(fn(407));
+	t.true(fn(1634));
+	t.true(fn(8208));
+	t.true(fn(4679307774));
+	t.end();
 });
 
-it('should be false', function () {
-	assert.strictEqual(isNarcissistic(154), false);
-	assert.strictEqual(isNarcissistic(471414), false);
-	assert.strictEqual(isNarcissistic(88), false);
-	assert.strictEqual(isNarcissistic(100), false);
+test('should be false', function (t) {
+	t.false(fn(154));
+	t.false(fn(471414));
+	t.false(fn(88));
+	t.false(fn(100));
+	t.end();
 });
