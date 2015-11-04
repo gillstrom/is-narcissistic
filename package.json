@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -28,7 +28,8 @@
     "test"
   ],
   "devDependencies": {
-    "ava": "*"
+    "ava": "*",
+    "xo": "*"
   },
   "dependencies": {
     "num-arr": "^1.0.1",
